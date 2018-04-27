@@ -1,0 +1,196 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFFF5F5F5"
+    tools:context="com.llc.framework.ui.fragment.WorksFragment">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorFFF5F5F5">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/expand_collapse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlwaysCollapsed">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/fragment_works_rg_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="@dimen/dimen_15dp"
+                    android:layout_marginRight="@dimen/dimen_15dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@mipmap/week_checked"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/fragment_works_rb_current_week"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="10"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="@string/current_week"
+                        android:textColor="@color/colorWhite" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <RadioButton
+                        android:id="@+id/fragment_works_rb_current_month"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="11.5"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="@string/current_month"
+                        android:textColor="@color/colorWhite" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <RadioButton
+                        android:id="@+id/fragment_works_rb_current_year"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="10"
+                        android:button="@null"
+                        android:gravity="center"
+                        android:text="@string/current_year"
+                        android:textColor="@color/colorWhite" />
+                </RadioGroup>
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="@dimen/dimen_15dp"
+                    android:layout_marginRight="@dimen/dimen_15dp"
+                    android:layout_marginTop="@dimen/dimen_6dp"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="5dp">
+
+                    <cn.bingoogolapple.bgabanner.BGABanner
+                        android:id="@+id/fragment_works_bn_banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"></cn.bingoogolapple.bgabanner.BGABanner>
+
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="@dimen/dimen_22dp"
+                    android:background="@color/colorWhite"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dimen_15dp"
+                    android:paddingRight="@dimen/dimen_15dp"
+                    android:text="@string/customer_management"
+                    android:textColor="@color/colorFF444444"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimens_1dp"
+                    android:background="@color/colorWhite"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/WorksTextViewStyle"
+                        android:drawableTop="@mipmap/add_customer"
+                        android:text="@string/add_customer" />
+
+                    <TextView
+                        style="@style/WorksTextViewStyle"
+                        android:drawableTop="@mipmap/time_expire"
+                        android:text="@string/time_expire" />
+
+                    <TextView
+                        style="@style/WorksTextViewStyle"
+                        android:drawableTop="@mipmap/add_genjin"
+                        android:text="@string/add_follow_up" />
+
+                    <TextView
+                        style="@style/WorksTextViewStyle"
+                        android:drawableTop="@mipmap/add_focus"
+                        android:text="@string/add_focus" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:background="@color/colorWhite"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dimen_15dp"
+                    android:paddingRight="@dimen/dimen_15dp"
+                    android:text="@string/sales_support"
+                    android:textColor="@color/colorFF444444"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimens_1dp"
+                    android:background="@color/colorWhite"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/WorksTextViewStyle"
+                        android:drawableTop="@mipmap/ic_add_contract"
+                        android:text="@string/add_contract" />
+
+                    <TextView
+                        style="@style/WorksTextViewStyle"
+                        android:drawableTop="@mipmap/ic_manage_contract"
+                        android:text="@string/contract_manage" />
+
+                    <TextView
+                        style="@style/WorksTextViewStyle"
+                        android:drawableTop="@mipmap/ic_schedule_arrange"
+                        android:text="@string/schedule_arrange" />
+
+                    <TextView
+                        style="@style/WorksTextViewStyle"
+                        android:drawableTop="@mipmap/add_focus"
+                        android:text="@string/backlog" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_48dp"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:background="@color/colorWhite"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dimen_15dp"
+                    android:paddingRight="@dimen/dimen_15dp"
+                    android:text="@string/latest_product"
+                    android:textColor="@color/colorFF444444"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/fragment_works_lv_list"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dimens_1dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_10dp"
+        android:background="@color/colorWhite"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

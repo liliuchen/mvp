@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:duration="100">
+        <clip
+            android:drawable="@mipmap/ic_loading_01"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_02"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_03"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_04"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_05"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_06"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_07"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_08"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_09"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_10"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_11"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_12"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_13"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_14"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_15"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_16"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_17"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_18"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_19"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_20"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_21"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_22"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_23"
+            android:gravity="center" />
+    </item>
+    <item
+        android:duration="100" >
+        <clip
+            android:drawable="@mipmap/ic_loading_24"
+            android:gravity="center" />
+    </item>
+
+</animation-list>

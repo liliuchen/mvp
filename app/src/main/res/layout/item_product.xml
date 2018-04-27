@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen_15dp"
+    android:paddingRight="@dimen/dimen_15dp">
+
+    <TextView
+        android:id="@+id/item_product_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14.5dp"
+        android:text="10%+浮动"
+        android:textColor="@color/colorFFF94B46"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="14.5dp"
+        android:text="业绩基准"
+        android:id="@+id/item_product_tv_benchmark"
+        android:textColor="@color/colorFFF94B46"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="146dp"
+        android:text="《战将》影视专项基金"
+        android:textSize="15sp"
+        android:textColor="@color/colorFF444444"
+        android:layout_alignBaseline="@+id/item_product_tv_title"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="146dp"
+        android:text="起投金额"
+        android:textColor="@color/colorFFBBBBBB"
+        android:layout_alignBaseline="@+id/item_product_tv_benchmark"/>
+
+
+
+</RelativeLayout>

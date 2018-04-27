@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.main.MainActivity">
+
+    <include
+        android:id="@+id/activity_main_title"
+        layout="@layout/title_layout"/>
+
+    <RadioGroup
+        android:id="@+id/activity_main_rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/activity_main_rb_works"
+            style="@style/MainRadioButtonStyle"
+            android:drawableTop="@drawable/main_works_selector"
+            android:text="@string/workbench" />
+
+        <RadioButton
+            android:id="@+id/activity_main_rb_schedule"
+            style="@style/MainRadioButtonStyle"
+            android:drawableTop="@drawable/main_schedule_selector"
+            android:text="@string/schedule" />
+
+        <RadioButton
+            android:id="@+id/activity_main_rb_client_list"
+            style="@style/MainRadioButtonStyle"
+            android:drawableTop="@drawable/main_client_list_selector"
+            android:text="@string/client_list" />
+
+        <RadioButton
+            android:id="@+id/activity_main_rb_product"
+            style="@style/MainRadioButtonStyle"
+            android:drawableTop="@drawable/main_product_selector"
+            android:text="@string/product" />
+
+        <RadioButton
+            android:id="@+id/activity_main_rb_mine"
+            style="@style/MainRadioButtonStyle"
+            android:drawableTop="@drawable/main_mine_selector"
+            android:text="@string/mine" />
+
+    </RadioGroup>
+
+    <FrameLayout
+        android:layout_below="@+id/activity_main_title"
+        android:id="@+id/activity_main_flayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/activity_main_view_line" />
+
+    <View
+        android:id="@+id/activity_main_view_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@id/activity_main_rg_group"
+        android:background="@color/colorFFDCDCDC" />
+
+</RelativeLayout>

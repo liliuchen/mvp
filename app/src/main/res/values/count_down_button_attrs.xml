@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CountdownButton">
+        <attr name="countdown" format="integer"></attr>
+        <attr name="startText" format="string"></attr>
+        <attr name="endText" format="string"></attr>
+        <attr name="postfix" format="string"></attr>
+    </declare-styleable>
+</resources>

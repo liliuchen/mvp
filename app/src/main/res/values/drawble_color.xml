@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--radiobutton字体前景色与选中色-->
+    <drawable name="drawable_orange" >#FFF33C27</drawable>
+    <drawable name="drawable_gray" >#FFBBBBBB</drawable>
+
+    <drawable name="drawable_white" >#FFFFFF</drawable>
+    <drawable name="drawable_while_88" >#11CCCCCC</drawable>
+
+    <!--button-->
+    <drawable name="drawable_button_default" >#56abe4</drawable>
+    <drawable name="drawable_button_focus" >#56abe4</drawable>
+    <drawable name="drawable_button_press" >#3f81c1</drawable>
+    <!--button-->
+</resources>
