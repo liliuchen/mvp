@@ -23,7 +23,7 @@ import butterknife.ButterKnife;
  *@author   liliuchen
  *@emial    871898381@qq.com
  *@describe 登录界面
- *@company  棋至文化广播有限公司
+ *@company
  */
 public class LoginActivity extends BaseActivity{
     private static String ACTION_ID;

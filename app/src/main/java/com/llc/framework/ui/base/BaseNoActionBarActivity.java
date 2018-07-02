@@ -12,7 +12,7 @@ import android.view.WindowManager;
  *@author   liliuchen
  *@emial    871898381@qq.com
  *@describe 无actionbar
- *@company  棋至文化广播有限公司
+ *@company
  */
 
 public abstract class BaseNoActionBarActivity extends BaseActivity {

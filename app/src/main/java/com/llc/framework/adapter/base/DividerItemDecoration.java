@@ -27,7 +27,7 @@ import android.view.View;
  *@author   liliuchen
  *@emial    871898381@qq.com
  *@describe RecyclerView 分割线
- *@company  棋至文化广播有限公司
+ *@company
  */
 
 public class DividerItemDecoration extends RecyclerView.ItemDecoration {

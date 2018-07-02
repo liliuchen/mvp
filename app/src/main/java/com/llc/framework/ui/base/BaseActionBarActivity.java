@@ -15,7 +15,7 @@ import com.llc.framework.manager.activity.ActivityManager;
  *@author   liliuchen
  *@emial    871898381@qq.com
  *@describe 抽象的有actionbar
- *@company  棋至文化广播有限公司
+ *@company
  */
 public abstract class BaseActionBarActivity extends BaseActivity {
     @Override

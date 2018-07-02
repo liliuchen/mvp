@@ -19,7 +19,7 @@ import java.util.TimerTask;
  *@author   liliuchen
  *@emial    871898381@qq.com
  *@describe 倒计时
- *@company  棋至文化广播有限公司
+ *@company
  */
 public class CountdownButton extends Button {
     private Handler handler = new Handler();

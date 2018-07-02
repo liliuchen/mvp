@@ -27,7 +27,7 @@ import butterknife.ButterKnife;
  *@author   liliuchen
  *@emial    871898381@qq.com
  *@describe 欢迎界面
- *@company  棋至文化广播有限公司
+ *@company
  */
 public class WelcomeActivity extends AppCompatActivity implements View.OnClickListener {
     @BindView(R.id.activity_welcome_vp_controller)

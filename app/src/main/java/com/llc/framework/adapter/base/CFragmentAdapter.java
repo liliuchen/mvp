@@ -13,7 +13,7 @@ import java.util.List;
  * @date 2018/2/12
  * @emial 871898381@qq.com
  * @describe 切换 ViewPage的适配器
- * @company 棋至文化广播有限公司
+ * @company
  */
 public class CFragmentAdapter extends FragmentStatePagerAdapter {
     List<Fragment> mFragments;

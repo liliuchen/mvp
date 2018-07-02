@@ -11,7 +11,7 @@ import android.widget.ListView;
  *@author   liliuchen
  *@emial    871898381@qq.com
  *@describe 没有滚动条的listview
- *@company  棋至文化广播有限公司
+ *@company
  */
 public class ListViewForScrollView extends ListView {
     public ListViewForScrollView(Context context) {

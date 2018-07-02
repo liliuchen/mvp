@@ -11,7 +11,7 @@ import android.content.pm.PackageManager;
  * @date 2018/2/12
  * @emial 871898381@qq.com
  * @describe 获取App信息的工具类
- * @company 棋至文化广播有限公司
+ * @company
  */
 
 public class AppUtils {

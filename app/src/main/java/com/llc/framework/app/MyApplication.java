@@ -15,7 +15,7 @@ import org.xutils.x;
  *@author   liliuchen
  *@emial    871898381@qq.com
  *@describe app入口 初始化一些全局变量
- *@company  棋至文化广播有限公司
+ *@company
  */
 
 public class MyApplication extends MultiDexApplication {

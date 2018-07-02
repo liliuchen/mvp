@@ -7,7 +7,7 @@ package com.llc.framework.manager.network;
  *@author   liliuchen
  *@emial    871898381@qq.com
  *@describe url配置
- *@company  棋至文化广播有限公司
+ *@company
  */
 
 public class UrlsManager {

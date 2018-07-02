@@ -34,7 +34,7 @@ import butterknife.ButterKnife;
  *@author   liliuchen
  *@emial    871898381@qq.com
  *@describe 主界面
- *@company  棋至文化广播有限公司
+ *@company
  */
 
 public class MainActivity extends AppCompatActivity {

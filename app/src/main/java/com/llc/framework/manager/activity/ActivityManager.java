@@ -18,7 +18,7 @@ import java.util.Map;
  *@author   liliuchen
  *@emial    871898381@qq.com
  *@describe Activity管理器 当需要检测登录只有才跳转
- *@company  棋至文化广播有限公司
+ *@company
  */
 
 

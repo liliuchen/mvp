@@ -12,7 +12,7 @@ import com.llc.framework.mvp.presenter.BasePresenter;
  * @date 2018/2/12
  * @emial 871898381@qq.com
  * @describe 实现mvp的activity
- * @company 棋至文化广播有限公司
+ * @company
  */
 public abstract class BaseActivity<V, T extends BasePresenter<V>> extends AppCompatActivity {
 

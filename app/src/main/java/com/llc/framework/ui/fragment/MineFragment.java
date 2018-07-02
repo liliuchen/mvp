@@ -16,7 +16,7 @@ import com.llc.framework.mvp.presenter.BasePresenter;
  *@author   liliuchen
  *@emial    871898381@qq.com
  *@describe 我的
- *@company  棋至文化广播有限公司
+ *@company
  */
 public class MineFragment extends BaseFragment {
 

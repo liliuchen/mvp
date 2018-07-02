@@ -10,7 +10,7 @@ import android.view.Window;
  * @date 2018/2/12
  * @emial 871898381@qq.com
  * @describe 无title
- * @company 棋至文化广播有限公司
+ * @company
  */
 public abstract class BaseNoTitleBarActivity extends BaseActivity {
 

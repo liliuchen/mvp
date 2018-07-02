@@ -15,7 +15,6 @@ import android.widget.Toast;
  * Copyright: Copyright (c) 2011
  * </p>
  * <p>
- * Company:上海广亿信息技术有限公司
  * </p>
  *
  * @author：李刘忱

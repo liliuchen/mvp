@@ -9,7 +9,7 @@ import java.lang.ref.WeakReference;
  * @date 2018/2/12
  * @emial 871898381@qq.com
  * @describe 抽象类presenter
- * @company 棋至文化广播有限公司
+ * @company
  */
 
 public class BasePresenter<T> {

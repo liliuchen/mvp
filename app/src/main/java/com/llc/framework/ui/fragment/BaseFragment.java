@@ -14,7 +14,7 @@ import com.llc.framework.mvp.presenter.BasePresenter;
  *@author   liliuchen
  *@emial    871898381@qq.com
  *@describe 实现mvp的fragment
- *@company  棋至文化广播有限公司
+ *@company
  */
 public abstract class BaseFragment<V, T extends BasePresenter<V>> extends Fragment {
     public T presenter;

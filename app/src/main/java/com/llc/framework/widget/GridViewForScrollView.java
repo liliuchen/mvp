@@ -10,7 +10,7 @@ import android.widget.GridView;
  *@author   liliuchen
  *@emial    871898381@qq.com
  *@describe 没有滚动条的gridview
- *@company  棋至文化广播有限公司
+ *@company
  */
 public class GridViewForScrollView extends GridView {
     public GridViewForScrollView(Context context) {
